@@ -1,6 +1,5 @@
 #include "cpu.h"
-
-#include "core/bus.h"
+#include "bus.h"
 
 ZynNes::Core::Cpu::Cpu(Bus* bus) {
     // before u read or write in a addr use a evaluate_address<>() from Bus class with address u wanna access to avoid index of bounds exception like this

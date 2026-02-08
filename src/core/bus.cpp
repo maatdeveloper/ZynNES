@@ -1,6 +1,5 @@
 #include "bus.h"
-
-#include "core/cpu.h"
+#include "cpu.h"
 
 ZynNes::Core::Bus::Bus() {
 }

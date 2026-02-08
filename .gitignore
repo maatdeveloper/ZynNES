@@ -1,2 +1,8 @@
 .idea
 cmake-build-debug
+
+# ignorar arquivos compilados
+*.o
+*.obj
+*.out
+*.exe

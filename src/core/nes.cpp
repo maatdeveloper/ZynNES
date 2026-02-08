@@ -1,9 +1,6 @@
-
 #include "nes.h"
-
-#include "core/bus.h"
-#include "core/cpu.h"
-
+#include "bus.h"
+#include "cpu.h"
 
 ZynNes::Core::Nes::Nes() {
     m_bus = std::make_unique<Bus>();
